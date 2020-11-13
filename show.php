@@ -15,9 +15,9 @@ if (mysqli_connect_errno($conn))
 }
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
-<div class="container-fluid">
-<table class="table table-hover table-bordered">
-<thead>
+<div class="container">
+<table class="table table-hover table-bordered table-sm">
+<thead class="thead-dark">
   <tr>
     <th width="100"> <div align="center">Name</div></th>
     <th width="350"> <div align="center">Comment </div></th>
