@@ -42,6 +42,10 @@ while($Result = mysqli_fetch_array($res))
 </table>
 </div>
 </div>
+<a class="btn btn-success" href="form.html">เพิ่มข้อมูล</a>
+
+
+
 <?php
 mysqli_close($conn);
 ?>
