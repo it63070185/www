@@ -21,7 +21,7 @@ if (mysqli_query($conn, $sql)) {
   } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
   }
-header("location: https://lab-itf.azurewebsites.net/");
+
 
 mysqli_close($conn);
 ?>
