@@ -21,9 +21,9 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <h3 class="text-center">
+    <div class="container mt-5 text-center">
+      
+            <h3>
                 <?php
                     if (mysqli_query($conn, $sql)) {
                         echo "Update Complete";
@@ -33,8 +33,8 @@
                     mysqli_close($conn);
                 ?>
             </h3>
-            <a href="index.php" class="btn btn-primary">OK</a>
-        </div>
+            <a href="index.php" class="btn btn-success">OK</a>
+       
     </div>
 </body>
 

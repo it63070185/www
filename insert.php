@@ -27,8 +27,7 @@ $sql = "INSERT INTO guestbook (Name , Comment , Link) VALUES ('$name', '$comment
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
+  <div class="container mt-5">
       <h3 class="text-center">
         <?php
         if (mysqli_query($conn, $sql)) {
@@ -39,7 +38,7 @@ $sql = "INSERT INTO guestbook (Name , Comment , Link) VALUES ('$name', '$comment
         mysqli_close($conn);
         ?>
       </h3>
-      <a href="index.php" class="btn btn-primary">OK</a>
+      <a href="index.php" class="btn btn-success">OK</a>
     </div>
   </div>
 </body>
