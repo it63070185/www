@@ -1,15 +1,34 @@
 <?php
-	$conn = mysqli_connect('database-itf.mysql.database.azure.com', 'it63070183@database-itf', 'YYWfcx51', 'ITFlab');
-    $sql = 'DELETE FROM guestbook WHERE ID = '.$_GET['ID'].'';
-    
+$conn = mysqli_connect('database-itf.mysql.database.azure.com', 'it63070183@database-itf', 'YYWfcx51', 'ITFlab');
+$sql = 'DELETE FROM guestbook WHERE ID = ' . $_GET['ID'] . '';
 
-    if (mysqli_query($conn, $sql)) {
-        echo "New record created successfully";
-      } else {
-        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-      }
-      
-      
-      mysqli_close($conn);
-      
 ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h3 class="text-center">
+                <?php
+                if (mysqli_query($conn, $sql)) {
+                    echo "Delete Complete";
+                } else {
+                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                }
+                mysqli_close($conn);
+                ?>
+            </h3>
+            <a href="index.php" class="btn btn-primary">OK</a>
+        </div>
+    </div>
+</body>
+
+</html>

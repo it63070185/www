@@ -29,7 +29,7 @@
                   <label class="m-3" for="name">Name</label>
                   <input type="text" class="form-control" name="name" id="idName" value="<?php echo $data['Name'];?>">
                   <label class="m-3" for="comment">Comment</label>
-                  <textarea rows="10" class="form-control" cols="20" name="comment" id="idComment" ><?php echo $data['Comment'];?></textarea><br>
+                  <textarea rows="5" class="form-control" cols="20" name="comment" id="idComment" ><?php echo $data['Comment'];?></textarea><br>
                   <label class="m-3" for="link">Link</label>
                   <input type="text" class="form-control" name="link" id="idLink" value="<?php echo $data['Link'];?>">
                   <input class="btn btn-primary mt-5" type="submit" id="commentBtn">
