@@ -56,7 +56,7 @@
     </div>
     </table>
   </div>
-  <a class="btn btn-success" href="form.php">Add</a>
+  <a class="btn btn-warning" href="form.php">Add</a>
   </div>
 
   <?php
