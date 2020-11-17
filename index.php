@@ -31,7 +31,7 @@
             <th>
               <div align="center">Link </div>
             </th>
-            <th>
+            <th width="50">
               <div align="center">Action</div>
             </th>
           </tr>
