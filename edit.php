@@ -27,11 +27,11 @@
               <div class="form-group mt-5">
                   <input type="text" name="id" value="<?php echo $data['ID']; ?>" class="form-control d-none" required>
                   <label class="m-3" for="name">Name</label>
-                  <input type="text" class="form-control" name="name" id="idName" value="<?php echo $data['name'];?>">
+                  <input type="text" class="form-control" name="name" id="idName" value="<?php echo $data['Name'];?>">
                   <label class="m-3" for="comment">Comment</label>
-                  <textarea rows="10" class="form-control" cols="20" name="comment" id="idComment" value="<?php echo $data['comment'];?>"></textarea><br>
+                  <textarea rows="10" class="form-control" cols="20" name="comment" id="idComment" value="<?php echo $data['Comment'];?>"></textarea><br>
                   <label class="m-3" for="link">Link</label>
-                  <input type="text" class="form-control" name="link" id="idLink" value="<?php echo $data['link'];?>">
+                  <input type="text" class="form-control" name="link" id="idLink" value="<?php echo $data['Link'];?>">
                   <input class="btn btn-primary mt-5" type="submit" id="commentBtn">
               </div>
           </form>
