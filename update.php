@@ -33,7 +33,7 @@
                     mysqli_close($conn);
                 ?>
             </h3>
-            <a href="index.php" class="btn btn-success">OK</a>
+            <a href="index.php" class="btn btn-success mt-3">OK</a>
        
     </div>
 </body>
