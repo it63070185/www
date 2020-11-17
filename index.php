@@ -44,7 +44,7 @@
               <td><?php echo $Result['Comment']; ?></td>
               <td><?php echo $Result['Link']; ?></td>
               <td><a class="btn btn-primary" href="delete.php?ID=<?php echo $Result['ID']; ?>">DELETE</a>
-              <a class="btn btn-success" href="edit.php?ID=<?php echo $Result['ID'];?>">DELETE</a>
+              <a class="btn btn-success" href="edit.php?ID=<?php echo $Result['ID'];?>">EDIT</a>
               </td>
             </tr>
           <?php
