@@ -30,6 +30,9 @@
             <th width="150">
               <div align="center">Link </div>
             </th>
+            <th width="100">
+              <div align="center">Action</div>
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -40,13 +43,15 @@
               <td><?php echo $Result['Name']; ?></td>
               <td><?php echo $Result['Comment']; ?></td>
               <td><?php echo $Result['Link']; ?></td>
-              <td><a class="btn btn-primary" href="delete.php?ID=<?php $Result['ID'];?>">DELETE</a>
+              <td><a class="btn btn-primary" href="delete.php?ID=<?php echo $Result['ID']; ?>">DELETE</a>
+              <a class="btn btn-success" href="edit.php?ID=<?php echo $Result['ID'];?>">DELETE</a>
+              </td>
             </tr>
           <?php
           }
           ?>
         </tbody>
-      </div>
+    </div>
     </table>
   </div>
   <a class="btn btn-success" href="form.html">เพิ่มข้อมูล</a>
