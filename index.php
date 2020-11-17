@@ -22,16 +22,16 @@
       <table class="table table-hover table-bordered table-sm">
         <thead class="thead-dark">
           <tr>
-            <th width="100">
+            <th>
               <div align="center">Name</div>
             </th>
-            <th width="100">
+            <th>
               <div align="center">Comment </div>
             </th>
-            <th width="100">
+            <th>
               <div align="center">Link </div>
             </th>
-            <th width="100">
+            <th>
               <div align="center">Action</div>
             </th>
           </tr>
