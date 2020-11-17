@@ -26,7 +26,7 @@
             <h3>
                 <?php
                     if (mysqli_query($conn, $sql)) {
-                        echo "Update Complete";
+                        echo "Update Completed";
                     } else {
                         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
                     }
